@@ -10,4 +10,4 @@ This plugin brings games to the [Cheshire Cat](https://github.com/cheshire-cat-a
 ## How to use it?
 Type: <b>@games</b> - list of the available games.
 
-Type: @trivia or @cookie or @puzzle
+Type: @trivia or @cookie or @puzzle or @tetris
