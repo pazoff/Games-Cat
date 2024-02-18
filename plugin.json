@@ -1,6 +1,6 @@
 {
     "name": "Games Cat",
-    "description": "It's time for fun!'. Type: @games - list of the available games",
+    "description": "It's time for fun!. Type: @games - list of the available games",
     "author_name": "Pazoff",
     "tags": "games,trivia,puzzle,cookie",
     "plugin_url": "https://github.com/pazoff/Games-Cat",
