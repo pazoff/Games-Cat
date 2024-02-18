@@ -2,7 +2,7 @@
     "name": "Games Cat",
     "description": "It's time for fun! How to use it? Type: @games - list of the available games",
     "author_name": "Pazoff",
-    "tags": "games,trivia,puzzle,cookie,tetris,breakout",
+    "tags": "games,trivia,puzzle,cookie,tetris,breakout,blackjack,poker,bridge,Roulette,Chess",
     "plugin_url": "https://github.com/pazoff/Games-Cat",
     "thumb": "https://raw.githubusercontent.com/pazoff/Games-Cat/main/games-cat.png",
     "version": "0.0.1"
