@@ -10,7 +10,7 @@ def agent_fast_reply(fast_reply, cat):
 
     if message.startswith('@games'):
             
-            games_available = """<b>GAMES CAT</b>
+            games_available = """<b>GAMES CAT</b><br><br><img width="50%" src="https://raw.githubusercontent.com/pazoff/Games-Cat/main/games-cat.png">
                 <br><b>Type:</b>
                 <b>@trivia</b> - Challenge your knowledge with a variety of intriguing questions.
                 <b>@cookie</b> - Delve into the sweet world of trivia challenges.
