@@ -9,8 +9,17 @@ def agent_fast_reply(fast_reply, cat):
     message = cat.working_memory["user_message_json"]["text"]
 
     if message.startswith('@games'):
+            
+            games_available = """<b>GAMES CAT</b>
+                <br><b>Type:</b>
+                <b>@trivia</b> - Challenge your knowledge with a variety of intriguing questions.
+                <b>@cookie</b> - Delve into the sweet world of trivia challenges.
+                <b>@puzzle</b> - Exercise your mind with captivating puzzles and brain teasers.
+                <b>@tetris</b> - Experience the classic block-stacking game that never gets old.
+                <b>@breakout</b> - Test your reflexes and skill in this timeless arcade favorite + 10 more games - Solitaire, Minesweeper, Snake, TikTakToe, Sudoku, Wordle and more ..."""
+
         
-            return {"output": 'Type: @trivia or @cookie or @puzzle or @tetris or @breakout'}
+            return {"output": games_available}
 
     if message.startswith('@trivia'):
         
