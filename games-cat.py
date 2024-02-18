@@ -16,6 +16,7 @@ def agent_fast_reply(fast_reply, cat):
                 <b>@cookie</b> - Delve into the sweet world of trivia challenges.
                 <b>@puzzle</b> - Exercise your mind with captivating puzzles and brain teasers.
                 <b>@tetris</b> - Experience the classic block-stacking game that never gets old.
+                <b>@blackjack</b> - Blackjack + over 10 more games - Chess, Poker, Bridge, Roulette and more ...
                 <b>@breakout</b> - Test your reflexes and skill in this timeless arcade favorite + 10 more games - Solitaire, Minesweeper, Snake, TikTakToe, Sudoku, Wordle and more ..."""
 
         
@@ -40,5 +41,9 @@ def agent_fast_reply(fast_reply, cat):
     if message.startswith('@breakout'):
         
             return {"output": ' <iframe height="650" width="500" src="https://www.lofiandgames.com/breakout" title="breakout"></iframe> '}
+    
+    if message.startswith('@blackjack'):
+        
+            return {"output": ' <iframe height="650" width="805" src="https://www.247blackjack.com/" title="blackjack"></iframe> '}
 
     return None
