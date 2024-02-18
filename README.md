@@ -1,6 +1,7 @@
 # Games Cat plugin
 Turn ★ into ⭐ (top-right corner) if you like the project!
 
+<img width="50%" src="https://raw.githubusercontent.com/pazoff/Games-Cat/main/games-cat.png">
 
 It's time for fun! 
 
