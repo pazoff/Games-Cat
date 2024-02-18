@@ -10,7 +10,7 @@ def agent_fast_reply(fast_reply, cat):
 
     if message.startswith('@games'):
         
-            return {"output": 'Type: @trivia or @cookie or @puzzle'}
+            return {"output": 'Type: @trivia or @cookie or @puzzle or @tetris'}
 
     if message.startswith('@trivia'):
         
@@ -23,5 +23,9 @@ def agent_fast_reply(fast_reply, cat):
     if message.startswith('@puzzle'):
         
             return {"output": ' <iframe height="650" width="800" src="https://html-classic.itch.zone/html/6586329/index.html" title="Puzzle"></iframe> '}
+    
+    if message.startswith('@tetris'):
+        
+            return {"output": ' <iframe height="650" width="800" src="https://idev.games/appvert/game/640/game30140/" title="Tetris"></iframe> '}
 
     return None
