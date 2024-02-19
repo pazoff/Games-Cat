@@ -19,6 +19,7 @@ def agent_fast_reply(fast_reply, cat):
                 <b>@millionaire</b> - Test your luck and skill at Who Wants To Be A Millionaire game.
                 <b>@blackjack</b> - Blackjack + over 10 more games - Chess, Poker, Bridge, Roulette and more ...
                 <b>@monopoly</b> - A board game about trying to control the most property.
+                <b>@ludo</b> - A classic board game for two to four players.
                 <b>@breakout</b> - Test your reflexes and skill in this timeless arcade favorite + 10 more games - Solitaire, Minesweeper, Snake, TikTakToe, Sudoku, Wordle and more ..."""
 
         
@@ -55,5 +56,9 @@ def agent_fast_reply(fast_reply, cat):
     if message.startswith('@monopoly'):
         
             return {"output": ' <iframe height="650" width="800" src="https://richup.io/" title="monopoly"></iframe> '}
+    
+    if message.startswith('@ludo'):
+        
+            return {"output": ' <iframe height="650" width="800" src="https://games.crazygames.com/en_US/ludo-king/index.html?v=1.269" title="ludo"></iframe> '}
 
     return None
