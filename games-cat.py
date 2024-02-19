@@ -16,7 +16,9 @@ def agent_fast_reply(fast_reply, cat):
                 <b>@cookie</b> - Delve into the sweet world of trivia challenges.
                 <b>@puzzle</b> - Exercise your mind with captivating puzzles and brain teasers.
                 <b>@tetris</b> - Experience the classic block-stacking game that never gets old.
+                <b>@millionaire</b> - Test your luck and skill at Who Wants To Be A Millionaire game.
                 <b>@blackjack</b> - Blackjack + over 10 more games - Chess, Poker, Bridge, Roulette and more ...
+                <b>@monopoly</b> - A board game about trying to control the most property.
                 <b>@breakout</b> - Test your reflexes and skill in this timeless arcade favorite + 10 more games - Solitaire, Minesweeper, Snake, TikTakToe, Sudoku, Wordle and more ..."""
 
         
@@ -45,5 +47,13 @@ def agent_fast_reply(fast_reply, cat):
     if message.startswith('@blackjack'):
         
             return {"output": ' <iframe height="650" width="805" src="https://www.247blackjack.com/" title="blackjack"></iframe> '}
+    
+    if message.startswith('@millionaire'):
+        
+            return {"output": ' <iframe height="650" width="800" src="https://games.crazygames.com/en_US/millionaire-quiz/index.html?v=1.269" title="millionaire"></iframe> '}
+    
+    if message.startswith('@monopoly'):
+        
+            return {"output": ' <iframe height="650" width="800" src="https://richup.io/" title="monopoly"></iframe> '}
 
     return None
