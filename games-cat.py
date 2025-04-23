@@ -60,5 +60,9 @@ def agent_fast_reply(fast_reply, cat):
     if message.startswith('@ludo'):
         
             return {"output": ' <iframe height="650" width="800" src="https://games.crazygames.com/en_US/ludo-king/index.html?v=1.269" title="ludo"></iframe> '}
+    
+    if message.startswith('@snake'):
+        
+            return {"output": ' <iframe height="650" width="800" src="https://pazoff.github.io/Snake-Game-with-Two-Snakes/" title="Snake Game with Two Snakes and Extra Features"></iframe> '}
 
     return None
