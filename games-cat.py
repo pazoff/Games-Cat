@@ -12,6 +12,7 @@ def agent_fast_reply(fast_reply, cat):
             
             games_available = """<b>GAMES CAT</b><br><br><img width="50%" src="https://raw.githubusercontent.com/pazoff/Games-Cat/main/games-cat.png">
                 <br><b>Type:</b>
+                <b>@snake</b> - Snake Game with Two Snakes and Extra Features.
                 <b>@trivia</b> - Challenge your knowledge with a variety of intriguing questions.
                 <b>@cookie</b> - Delve into the sweet world of trivia challenges.
                 <b>@puzzle</b> - Exercise your mind with captivating puzzles and brain teasers.
